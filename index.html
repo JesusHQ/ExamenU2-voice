@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control por Voz del Navegador</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    #text {
+      font-size: 16px;
+      color: black;
+    }
+    .command-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .command {
+      background-color: #e9ecef;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .command:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+    .command strong {
+      color: #495057;
+    }
+    footer {
+      background-color: #f8f9fa;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Control por Voz del Navegador</h1>
+    <p id="text" class="text-center">Este es un texto de ejemplo que puedes cambiar según tus necesidades.</p>
+    <div id="result" class="text-center mt-3"></div>
+
+    <div class="command-container">
+      <div class="command"><strong>Enciende la luz de la recámara</strong></div>
+      <div class="command"><strong>Apaga la luz de la recámara</strong></div>
+      <div class="command"><strong>Enciende la luz de la sala</strong></div>
+      <div class="command"><strong>Apaga la luz de la sala</strong></div>
+      <div class="command"><strong>Enciende las luces del jardín</strong></div>
+      <div class="command"><strong>Apaga las luces del jardín</strong></div>
+      <div class="command"><strong>Enciende el ventilador</strong></div>
+      <div class="command"><strong>Apaga el ventilador</strong></div>
+      <div class="command"><strong>Abre las cortinas</strong></div>
+      <div class="command"><strong>Cierra las cortinas</strong></div>
+      <div class="command"><strong>Activa la alarma de la casa</strong></div>
+      <div class="command"><strong>Desactiva la alarma de la casa</strong></div>
+      <div class="command"><strong>Enciende las cámaras de seguridad</strong></div>
+      <div class="command"><strong>Apaga las cámaras de seguridad</strong></div>
+    </div>
+
+    <a href="https://www.ejemplo.com">
+      <img src="url_de_tu_imagen.jpg" alt="QR" style="width:100px; height:auto;">
+    </a>
+
+  </div>
+
+  <footer class="bg-light py-3 text-center fixed-bottom">
+    <div class="container text-center">
+      <span>Todos los derechos reservados &copy; 2024</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

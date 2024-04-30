@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login por Voz</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #eef;
+      border: 1px solid #ccd;
+      color: #333;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login por Voz</h1>
+    <p>Por favor, di tu usuario y contraseña para iniciar sesión.</p>
+    <div id="result">Esperando entrada...</div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
