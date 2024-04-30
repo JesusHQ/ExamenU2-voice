@@ -5,51 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login por Voz</title>
   <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #E3EAF5; /* Un azul claro muy suave para un fondo más fresco */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    .login-container {
-      background: white;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: center;
-      width: 300px;
-    }
+.login-container {
+  background: #FFFFFF; /* Mantenemos el fondo blanco pero con un contorno más definido */
+  padding: 40px;
+  border-radius: 15px; /* Bordes un poco más redondeados */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Sombra más pronunciada para un efecto 3D suave */
+  text-align: center;
+  width: 300px;
+}
 
-    h1 {
-      color: #333;
-    }
+h1 {
+  color: #1A237E; /* Un azul oscuro para dar más contraste */
+}
 
-    p {
-      color: #666;
-    }
+p {
+  color: #5C6BC0; /* Un azul más claro que complementa el título */
+}
 
-    #result {
-      margin-top: 20px;
-      padding: 10px;
-      background-color: #eef;
-      border: 1px solid #ccd;
-      color: #333;
-      font-style: italic;
-    }
+#result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #CFD8DC; /* Un gris azulado claro para el fondo del mensaje */
+  border: 1px solid #B0BEC5; /* Borde que combina con el fondo del mensaje */
+  color: #1A237E; /* Utilizamos el mismo azul oscuro para el texto */
+  font-style: italic;
+}
+
   </style>
 </head>
 <body>
   <div class="login-container">
-    <h1>Login por Voz</h1>
-    <p>Por favor, di tu usuario y contraseña para iniciar sesión.</p>
-    <div id="result">Esperando entrada...</div>
+    <div class="login-container">
+      <div class="login-container">
+        <h1>Bienvenido </h1>
+        <h2>Inicio de sesión </h2>
+        <p>Por favor, di primero tu usuario y luego la contraseña para iniciar sesión.</p>
+        <div id="result">Esperando credenciales...</div>
   </div>
 
   <script src="main.js"></script>
 </body>
 </html>
+
